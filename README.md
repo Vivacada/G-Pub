@@ -33,7 +33,7 @@ fields said properties object may have.
 | --- | --- | --- |
 | "name" | String | Resource name |
 | "date" | String Date-Time | When the reference was added to the repo. |
-| "source" | Number List (Size 2) | Beginning and Ending indices of referencing substring |
+| "origin" | Number List (Size 2) | Beginning and Ending indices of referencing substring |
 | "target" | Number List (Size 2) | Beginning and Ending indices of referenced substring |
 | "notes" | String or String List | Arbitrary Comments |
 | "verify" | Boolean | True to approve resource; False to disapprove resource |
