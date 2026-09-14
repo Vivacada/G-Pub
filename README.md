@@ -26,8 +26,8 @@ reference to another resource.
 A G-Pub object shall have a "source" field, containing a string or string list, containing links to
 the referenced resource, the order of which in the case of a list may inform source priority.
 
-Additionally, a G-Pub object may have a "properties" object, and below is a table of the various
-fields said properties object may have.
+Additionally, a G-Pub object may optionally have a "properties" object, and below is a table of the
+various fields said properties object may optionally have.
 
 | Name | Type | Details |
 | --- | --- | --- |
