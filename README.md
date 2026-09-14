@@ -30,7 +30,7 @@ Additionally, a G-Pub object may have a "properties" object, and below is a tabl
 fields said properties object may have.
 
 | Name | Type | Details |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | "name" | String | Resource name |
 | "date" | String Date-Time | When the reference was added to the repo. |
 | "source" | Number List (Size 2) | Beginning and Ending indices of referencing substring |
