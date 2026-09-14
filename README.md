@@ -8,7 +8,7 @@ G-Pub is a repository format for academic and academia-adjacent publishing.
 
 In a G-Pub repo, the root folder will have a single README file, holding the main publication of
 the repo. It should be written in a plain text format, and ideally accompanied by a "LICENSE.md"
-file. There may also be a "JPUB.json" file, written in the G-Pub JSON file format, and containing
+file. There may also be a "GPUB.json" file, written in the G-Pub JSON file format, and containing
 all citations. Some G-Pub repos may omit the README paper and have only the G-Pub JSON file.
 
 Any other assets in the repo will be treated as assets, but ideally, they should all be nested in a
