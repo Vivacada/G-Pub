@@ -29,15 +29,14 @@ the referenced resource, the order of which in the case of a list may inform sou
 Additionally, a G-Pub object may have a "properties" object, and below is a table of the various
 fields said properties object may have.
 
-| Name | Type | Details | Required |
+| Name | Type | Details |
 | --- | --- | --- | --- |
-| "location" | String or String List | Links to resource | Yes |
-| "name" | String | Resource name | no |
-| "date" | String Date-Time | When the reference was added to the repo. | No |
-| "source" | Number List (Size 2) | Beginning and Ending indices of referencing substring | No |
-| "target" | Number List (Size 2) | Beginning and Ending indices of referenced substring | No |
-| "note" | String or String List | Arbitrary Comments | No |
-| "verify" | Boolean | True to approve resource; False to disapprove resource | No |
+| "name" | String | Resource name |
+| "date" | String Date-Time | When the reference was added to the repo. |
+| "source" | Number List (Size 2) | Beginning and Ending indices of referencing substring |
+| "target" | Number List (Size 2) | Beginning and Ending indices of referenced substring |
+| "note" | String or String List | Arbitrary Comments |
+| "verify" | Boolean | True to approve resource; False to disapprove resource |
 
 The order of the objects in the root list may be used to inform proper reading order.
 
